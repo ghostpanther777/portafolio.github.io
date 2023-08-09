@@ -1,0 +1,160 @@
+/* ---------- Diseño del menú--------*/
+nav {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #A805AB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+nav:hover {
+    background-color: #F78C14;
+}
+
+#king {
+    width: 150px;
+    border-left: solid;
+    border-right: solid;
+    border-width: 2px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu {
+    font-family: monospace;
+    font-size: 40px;
+    color: #F7C514;
+    text-decoration: none;
+    text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+.menu:hover {
+    color: aqua;
+}
+/* ----------Fin Diseño del menú--------*/
+
+
+/* -----------Diseño del interior de la página----------- */
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #3F05AB;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+}
+
+.h1B {
+  text-shadow: 1.5px 1.5px black;
+  color: #F78C14;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 50ch;
+  animation: typing 3s steps(50), blink .5s infinite step-end alternate;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 300%;
+  text-transform: uppercase;
+}
+
+@keyframes typing {
+    from {width: 0}
+  }
+  
+  @keyframes blink {
+    50% {border-color: transparent}
+    }
+  
+.texto {
+    font-size: 20px;
+    text-indent: 30px;
+    margin-left: 40%;
+    margin-right: 5%;
+    font-weight: bold;
+   /*----Animación de texto----*/
+    animation: fadeIn 3s ease;
+    }
+
+    @keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        filter: blur(20px);
+    }
+    50% {
+        opacity: 1;
+        filter: brightness(2) blur(10px);
+    }
+    }
+    /*----Fin de Animación de texto----*/
+
+
+#southP {
+    float: right;
+}
+
+.kingBailando {
+    border-radius: 40px;
+    margin-left: 1%;
+    float:left
+
+}
+
+/* -----------Fin Diseño del interior de la página----------- */
+
+/* ----------Diseño del footer--------*/
+
+footer {
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+}
+
+#correo {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 0%;
+    margin-top: 1.2%;
+
+}
+
+#img_g {
+    width: 25px;
+    float: left;
+    padding: 10px;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contact {
+    display: flex;
+    float: left;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 1.1%;
+}
+
+/* ----------Fin Diseño del footer--------*/

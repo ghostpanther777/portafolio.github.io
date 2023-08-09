@@ -1,0 +1,178 @@
+/* ---------- Diseño del menú--------*/
+nav {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #00f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.menu {
+    font-family: monospace;
+    font-size: 40px;
+    color: #f71498;
+    text-decoration: none;
+    text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+.menu:hover {
+    color: rgb(189, 17, 31);
+}
+
+#logo {
+    font-size: 40px;
+}
+/* ----------Fin Diseño del menú--------*/
+
+/* -----------Diseño del interior de la página----------- */
+html {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    font-family: monospace;
+    min-height: 100%;
+    margin: 0;
+}
+
+
+main {
+    margin: 2.5%;
+    color: palevioletred;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.bdp {
+    margin: 0;
+    text-indent: 2%;
+    font-size: 15px;
+}
+
+#linkport {
+ font-size: 15px;
+
+}
+
+.link {
+    font-size: 15px;
+}
+
+#lokisent {
+    width: 150px;
+    transform: scaleX(-1);
+    margin: 0;
+    position: absolute;
+    margin-left: 0.2%;
+}
+
+#luz{
+    width: 300px;
+    float: right;
+}
+
+#luzOoO {
+    width: 150px;
+    float: right;
+    scale: (-1);
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 7.8%;
+}
+
+#linkport {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*----Diseño del section----*/
+
+.centrar {
+    margin-left: 5%;
+}
+
+#sectionLF, #sectionSF, #sectionJF {
+    display: flex;
+    width: 30%;
+
+}
+
+#sectionLF img, #sectionSF img, #sectionJF img{
+    width: 30%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .3s ease;
+}
+
+#sectionLF img:hover, #sectionSF img:hover, #sectionJF img:hover{
+    cursor: crosshair;
+    width: 70%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/*----Fin Diseño del section----*/
+
+/* ----------Diseño del footer--------*/
+
+footer {
+    background-color: #00f7ff;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    position: absolute
+}
+
+#correo {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1.2%;
+
+}
+
+#img_g {
+    width: 25px;
+    float: left;
+    padding: 10px;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contact {
+    display: flex;
+    float: left;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    margin-left: 5%;
+    margin-bottom: 1.1%;
+}
+
+/* ----------Fin Diseño del footer--------*/
